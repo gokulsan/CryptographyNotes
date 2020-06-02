@@ -1,0 +1,26 @@
+d = n * q + r, o < r < n
+r = d (mod n)
+Residue, Remainder = d ( In the modulus of n )
+
+Group >>
+
+A pair <G,*> where G is a set and * is a binary operation such that the following hold
+Closure, Associativity, Identity, Inverse
+
+Ring >>
+
+It is a triplet < R, +, * > where + and * are binary operations and R is a set satisfying the following properties.
+
+<R, +> is a commutative group
+For all x,y and z in R
+x * y is also in R
+x * ( y * z ) = ( x * y ) * z
+x * ( y + z ) = ( x * y ) + ( x * z )
+
+Field >>
+
+< R, +, * > is a commutative ring with 
+
+R has a multiplicative identity
+Each element, x, in R ( except for 0 ) has an inverse element in R, denoted by x(-1)
+
