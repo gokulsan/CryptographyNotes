@@ -1,5 +1,5 @@
-** Hard Lattice Problems
+Hard Lattice Problems
 
-*** Detecting Short Non Zero Lattice Vectors (Gap) SVP, SIVP, 
-*** For poly(m), solving appears to require 2^ohm(m) time and space. 
-*** Need clarity on the proof of these hard lattice problems.
+Detecting Short Non Zero Lattice Vectors (Gap) SVP, SIVP, 
+For poly(m), solving appears to require 2^ohm(m) time and space. 
+Need clarity on the proof of these hard lattice problems.
