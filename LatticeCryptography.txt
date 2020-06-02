@@ -3,3 +3,12 @@ Hard Lattice Problems
 Detecting Short Non Zero Lattice Vectors (Gap) SVP, SIVP, 
 For poly(m), solving appears to require 2^ohm(m) time and space. 
 Need clarity on the proof of these hard lattice problems.
+
+Short Integer Solution
+
+Zsubscript(q), Superscript(n) is an n-dimensional integer vector modulo q
+Goal is to find a non-trivial z1, ..., z(m) such that z(1)a(1)+ z(2)a(2)+...+z(m)a(m) = 0
+
+Collission Resistant Hash Functions and Short Integer Solutions 
+
+Set m > nlogq, define shrinking fA : {0,1} superscript(m) -> zQN
