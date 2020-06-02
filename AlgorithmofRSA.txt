@@ -1,0 +1,14 @@
+RSA scheme is a block cipher in which the plaintext and ciphertext are integers between 0 and n-1 for some n. 
+Choose two large primes, p and q. n= p*q
+f(n) = (p-1)(q-1)
+Choose e, such that gcd(e, f(n)) = 1
+Compute d such that d = e(inverse)mod[f(n)]
+
+C = M(exponent-e)mod(n)
+M = C(exponent-d)mod(n)
+
+Both sender and receiver should know the value of n. 
+The sender knows the value of e. Only the receiver knows the value of d.
+
+Public Key of PU = {e,n }
+Private Key of PR = {d,n}
