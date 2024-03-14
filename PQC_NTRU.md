@@ -10,6 +10,6 @@ To create an NTRU key, We need to randomly chooses 2 polynomials f, g member of
 
 ## Encryption:
 
-Suppose that Cathy (the encrypter) wants to send a message to Dan (the decrypter). She begins by selecting a message m from the set of plaintexts L(m). Next she randomly chooses a polynomial r member of L(r) and uses Dan's public key h to compute e = p * r ( Star Multiplication ) h + (m mod q)
+Suppose that Cathy (the encrypter) wants to send a message to Dan (the decrypter). She begins by selecting a message m from the set of plaintexts L(m). Next she randomly chooses a polynomial r member of L(r) and uses Dan's public key h to compute e = p * r ( Star Multiplication ) h + (m mod q)
 
 ## Decryption:
