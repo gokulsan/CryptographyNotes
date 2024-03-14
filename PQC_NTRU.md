@@ -7,3 +7,9 @@ The security of the NTRU public key cryptosystem comes from  the interaction of 
 
 ## Key Creation:
 To create an NTRU key, We need to randomly chooses 2 polynomials f, g member of L(g). The polynomial f must satisfy the additional requirement that it have inverses modulo q and modulo p. 
+
+## Encryption:
+
+Suppose that Cathy (the encrypter) wants to send a message to Dan (the decrypter). She begins by selecting a message m from the set of plaintexts L(m). Next she randomly chooses a polynomial r member of L(r) and uses Dan's public key h to compute e = p * r ( Star Multiplication ) h + (m mod q)
+
+## Decryption:
