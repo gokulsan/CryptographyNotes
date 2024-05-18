@@ -8,4 +8,7 @@
 - Difficulty in Lattice Reduction Problems
 
 ## Principles of Probablistic Encryption Systems
-- Encryption includes a random element, so each message has many possible encryptions. 
+- Encryption includes a random element, so each message has many possible encryptions.
+
+## Monero
+- Monero uses Ring Signatures and Pedersen Commitments. 
